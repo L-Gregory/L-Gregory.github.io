@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, I&#39;m Luke!</title>
+    <link>http://l-gregory.github.io/</link>
+    <description>Recent content on Hi, I&#39;m Luke!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="http://l-gregory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://l-gregory.github.io/cv/</link>
+      <pubDate>Sun, 01 May 2022 08:50:35 -0400</pubDate>
+      
+      <guid>http://l-gregory.github.io/cv/</guid>
+      <description>To see my CV - click here</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://l-gregory.github.io/aboutme/</link>
+      <pubDate>Sun, 01 May 2022 08:49:56 -0400</pubDate>
+      
+      <guid>http://l-gregory.github.io/aboutme/</guid>
+      <description>About Me I am currently a Postdoctoral Associate within the College of Agriculture and Life Sciences at Cornell University. I work with Mike Gore and Ying Sun focusing on the development/application of crop growth models using remote sensing data. I completed my Ph.D. in Plant Biology/Molecular Plant Sciences at Michigan State University where I worked with Berkley Walker studying plant physiology and biochemistry. Prior to that, I earn my B.S. in Biology with minors in Chemistry and Leadership Studies at Slippery Rock University.</description>
+    </item>
+    
+    <item>
+      <title> </title>
+      <link>http://l-gregory.github.io/projects/</link>
+      <pubDate>Sun, 01 May 2022 08:49:56 -0400</pubDate>
+      
+      <guid>http://l-gregory.github.io/projects/</guid>
+      <description>Projects Dissertation: My Ph.D. dissertation seeks to reveal adapted/acclimated strategies within the photorespiratory pathway that enable C3 plants to thrive at elevated temperatures. The following projects outline the details of this work:
+ Can photorespiration adapt to elevated temperatures?  Get a quick summary and/or read the publication   Can photorespiration acclimate to elevated temperatures?  Answers coming soon!   Can photorespiratory capacity be improved to increases net carbon fixation at elevated temperatures?</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://l-gregory.github.io/teaching/</link>
+      <pubDate>Sun, 01 May 2022 08:49:56 -0400</pubDate>
+      
+      <guid>http://l-gregory.github.io/teaching/</guid>
+      <description>In today&amp;rsquo;s data rich society, the public is being asked to comprehend/interpret vast amounts of information to make informed decisions across various contexts. This demand underscores the critical need for individuals to possess strong quantitative reasoning and interdisciplinary thinking skills. Teaching at the college level offers an opportunity to improve students&amp;rsquo; proficiency in these areas, equipping them with the essential tools not only to excel academically but also to navigate real-world challenges.</description>
+    </item>
+    
+  </channel>
+</rss>
