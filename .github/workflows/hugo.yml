@@ -1,3 +1,4 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -46,21 +47,20 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: npm ci
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
+          # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            -d docs  # Output to 'docs' folder
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site
-          path: docs  # Upload 'docs' folder as artifact
+          path: ./docs
 
   # Deployment job
   deploy:
@@ -73,6 +73,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./docs  # Specify 'docs' as the publish directory
