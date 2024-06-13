@@ -74,10 +74,12 @@ publishDir = "docs"
 
 [languages]
   [languages.en]
-    subtitle = "An Academic Portfolio"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
 
+  [languages.en.params]
+     subtitle = "An Academic Portfolio"
+     readOtherPosts = "Read other posts"
+     
   [languages.en.params.logo]
       logoMark = " " # marker in front of logoText 
       logoText = "Home" # title text at top screen
